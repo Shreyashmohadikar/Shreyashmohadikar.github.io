@@ -1097,3 +1097,7 @@ section .container {
   }
 }
 
+.education-image {
+  width: 100%; /* Adjust the width as needed */
+  height: 200px;
+}
