@@ -1096,8 +1096,3 @@ section .container {
     transform: translateX(-50%);
   }
 }
-
-.education-image {
-  width: 100%; /* Adjust the width as needed */
-  height: 200px;
-}
