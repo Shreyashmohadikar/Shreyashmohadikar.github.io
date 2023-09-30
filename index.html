@@ -1,523 +1,732 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5BB8W2X");
+    </script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Personal Portfolio</title>
+    <meta content="" name="descriptison" />
+    <meta content="" name="keywords" />
 
-  <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet" />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "UA-169007209-3");
+    </script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-169007209-3');
-  </script>
-
-
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Personal - v2.1.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-tops">
+      <div class="container">
+        <h1><a href="index.html">Shreyash Mohadikar</a></h1>
+        <h2 style="color: #fff">
+          I am a <span class="typing" style="color: #12d640"></span>
+        </h2>
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active">
+              <a href="#header"> <span>Home</span></a>
+            </li>
+            <li>
+              <a href="#about"><span>About</span></a>
+            </li>
+            <li>
+              <a href="#education"> <span>Education</span></a>
+            </li>
+            <li>
+              <a href="#experience"> <span>Experience</span></a>
+            </li>
+            <!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
+            <li>
+              <a href="#portfolio"> <span>Projects</span></a>
+            </li>
+            <li>
+              <a href="#skills"> <span>Skills</span></a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1utGdm-OrGau8AUkDAHXF-AHWSFeD02le"
+                target="_blank">
+                <span>Resume</span></a
+              >
+            </li>
+            <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
+            <li>
+              <a href="#contacts"> <span>Contact</span></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-tops">
-
-    <div class="container">
-
-      <h1><a href="index.html">Shreyash Mohadikar</a></h1>
-      <h2 style="color:#fff">I am a <span class="typing" style="color:#12D640"></span></h2>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <li><a href="#experience"> <span>Experience</span></a></li>
-          <!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://drive.google.com/file/d/1utGdm-OrGau8AUkDAHXF-AHWSFeD02le" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-
-        </ul>
-      </nav><!-- .nav-menu -->
-
-      <div class="social-links">
-        <a href="https://linktr.ee/shreyashmohadikar" target="_blank" class="google">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path fill="currentColor"
-              d="m13.736 5.853l4.005-4.117l2.325 2.38l-4.2 4.005h5.908v3.305h-5.937l4.229 4.108l-2.325 2.334l-5.74-5.769l-5.741 5.769l-2.325-2.325l4.229-4.108H2.226V8.121h5.909l-4.2-4.004l2.324-2.381l4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z" />
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/shreyashmohadikar/" target="_blank" class="linkedin"><i
-            class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/Shreyashmohadikar" target="_blank" class="github"><i class="bx bxl-github"></i></a>
-        <a href="mailto:shreyashmohadikar@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-      </div>
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/Photo.png" class="img-fluid" alt="Photo" style="width: 180px;">
+        <div class="social-links">
+          <a
+            href="https://linktr.ee/shreyashmohadikar"
+            target="_blank"
+            class="google">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24">
+              <path
+                fill="currentColor"
+                d="m13.736 5.853l4.005-4.117l2.325 2.38l-4.2 4.005h5.908v3.305h-5.937l4.229 4.108l-2.325 2.334l-5.74-5.769l-5.741 5.769l-2.325-2.325l4.229-4.108H2.226V8.121h5.909l-4.2-4.004l2.324-2.381l4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z" />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/shreyashmohadikar/"
+            target="_blank"
+            class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/Shreyashmohadikar"
+            target="_blank"
+            class="github"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="mailto:shreyashmohadikar@gmail.com"
+            target="_blank"
+            class="google"
+            ><i class="bx bxl-google"></i
+          ></a>
         </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <p>Focused and enthusiastic developer with a keen interest in artificial intelligence, deep learning, web
-            development and software development.
-            By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love
-            for these domains came into being.
-            I am a passionate individual who thrives to build and apply algorithms to solve real-world industry
-            problems.
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 12 June 2002</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +918435695555</li>
-              </ul>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <!-- ======= About Me ======= -->
+      <div class="about-me container">
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img
+              src="assets/img/Photo.png"
+              class="img-fluid"
+              alt="Photo"
+              style="width: 180px" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              Focused and enthusiastic developer with a keen interest in
+              artificial intelligence, deep learning, web development and
+              software development. By comprehensive exposure to the underlying
+              concepts and applying them vividly to various projects, my love
+              for these domains came into being. I am a passionate individual
+              who thrives to build and apply algorithms to solve real-world
+              industry problems.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Birthday:</strong> 12 June 2002
+                  </li>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Phone:</strong> +918435695555
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>City:</strong> Navi Mumbai, MH
+                  </li>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>Email:</strong> shreyashmohadikar@gmail.com
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Navi Mumbai, MH</li>
-                <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> shreyashmohadikar@gmail.com</li>
-              </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me -->
+
+      <!-- ======= Interests ======= -->
+      <div class="interests container">
+        <div class="section-title">
+          <h2>Interests</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box">
+              <i class="ri-global-line" style="color: #ffbb2c"></i>
+              <h3>Software Development</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-database-2-line" style="color: #5578ff"></i>
+              <h3>Machine Learning</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box">
+              <i class="ri-camera-3-line" style="color: #e80368"></i>
+              <h3>Computer Vision</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="ri-english-input" style="color: #1c7d32"></i>
+              <h3>Natural Language Processing</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-code-s-slash-fill" style="color: #28a745"></i>
+              <h3>Web Development</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-bar-chart-box-line" style="color: #f1081f"></i>
+              <h3>Data Visualization</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-file-list-3-line" style="color: #47aeff"></i>
+              <h3>Deep Learning</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box">
+              <i class="ri-image-line" style="color: #ffc107"></i>
+              <h3>Data Science</h3>
             </div>
           </div>
         </div>
       </div>
+      <!-- End Interests -->
+    </section>
+    <!-- End About Section -->
 
-    </div><!-- End About Me -->
-
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-global-line" style="color: #ffbb2c;"></i>
-            <h3>Software Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #5578ff;"></i>
-            <h3>Machine Learning</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-camera-3-line" style="color: #e80368;"></i>
-            <h3>Computer Vision</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-english-input" style="color: #1c7d32;"></i>
-            <h3>Natural Language Processing</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-code-s-slash-fill" style="color: #28a745;"></i>
-            <h3>Web Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #f1081f;"></i>
-            <h3>Data Visualization</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #47aeff;"></i>
-            <h3>Deep Learning</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-image-line" style="color: #ffc107;"></i>
-            <h3>Data Science</h3>
-          </div>
-        </div>
-      </div>
-
-    </div><!-- End Interests -->
-  </section><!-- End About Section -->
-
-
-
-  <!-- ======= Education Section ======= -->
-  <section id="education" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Education</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
-
-
-          <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100"
-            style="padding:0px 0px;padding-bottom: 5px;display: inline-block;">
-            <img src="assets/img/education/CollegeLogo.png" class="img-fluid" alt="">
-            <p style="text-align:left;color:#fff;padding: 5px 10px;"><em>B.Tech in Computer Science and Engineering
-                <br>with Specialization
-                in Artificial Intelligence and Machine Learning.
-              </em></p>
-            <h5 style="text-align:left;padding: 0px 10px;">April 2020 - Present</h5>
-            <h6 style="text-align:left;color:#fff;padding: 0px 10px;">Vellore Institute of Technology, Bhopal</h6>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="portfolio">
+    <!-- ======= Education Section ======= -->
+    <section id="education" class="services">
       <div class="container">
         <div class="section-title">
-          <h2>Online Certification</h2>
+          <h2>Education</h2>
         </div>
-
-        <div class="row portfolio-container" style="position: relative; height: 437.75px;">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
-            <div class="portfolio-wrap">
-              <img src="assets/img/certification/dai.png" class="img-fluid" alt="" style="
-            width: 360px;
-            height: 220px;">
-              <div class="portfolio-info">
-                <h4>Deep Learning Specialization</h4>
-                <div class="portfolio-links">
-                  <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/7S2V85RJD9QZ"
-                    target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
+        <div class="row">
+          <div
+            class="col-lg-12"
+            data-aos="fade-up"
+            style="display: inline-block">
+            <div
+              class="col-md-4 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="
+                padding: 0px 0px;
+                padding-bottom: 5px;
+                display: inline-block;
+              ">
+              <img
+                src="assets/img/education/CollegeLogo.png"
+                class="img-fluid"
+                alt="" />
+              <p style="text-align: left; color: #fff; padding: 5px 10px">
+                <em
+                  >B.Tech in Computer Science and Engineering <br />with
+                  Specialization in Artificial Intelligence and Machine
+                  Learning.
+                </em>
+              </p>
+              <h5 style="text-align: left; padding: 0px 10px">
+                April 2020 - Present
+              </h5>
+              <h6 style="text-align: left; color: #fff; padding: 0px 10px">
+                Vellore Institute of Technology, Bhopal
+              </h6>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 370px; top: 0px;">
-            <div class="portfolio-wrap">
-              <!-- <img src="assets/img/certification/aws.png" class="img-fluid" alt=""> -->
-              <img src="assets/img/certification/aws.png" class="img-fluid" alt="" style="
-            width: 360px;
-            height: 220px;">
-              <div class="portfolio-info">
-                <h4>AWS Cloud Practioner</h4>
-                <div class="portfolio-links">
-                  <a href="https://www.credly.com/badges/d2ad3d34-d343-4673-bcb6-82e8548500e9?source=linked_in_profile"
-                    target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 740px; top: 0px;">
-            <div class="portfolio-wrap">
-              <!-- <img src="assets/img/certification/jhu.png" class="img-fluid" alt=""> -->
-              <img src="assets/img/certification/jhu.png" class="img-fluid" alt="" style="
-            width: 360px;
-            height: 220px;">
-              <div class="portfolio-info">
-                <h4>HTML, CSS, and JavaScript for Web Developers</h4>
-                <div class="portfolio-links">
-                  <a href="https://www.coursera.org/account/accomplishments/certificate/LGNGHPX9K3DE" target="_blank"
-                    title="Certificate"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-project"
-            style="position: absolute; left: 0px; top: 218.875px;">
-            <div class="portfolio-wrap">
-              <!-- <img src="assets/img/certification/pel.png" class="img-fluid" alt=""> -->
-              <img src="assets/img/certification/pel.png" class="img-fluid" alt="" style="
-            width: 450px;
-            height: 150px;">
-              <div class="portfolio-info">
-                <h4>Machine Learning in Python</h4>
-                <div class="portfolio-links">
-                  <a href="https://perfectplanb.net/certificate/914aa27312" target="_blank" title="Certificate"><i
-                      class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-project"
-            style="position: absolute; left: 370px; top: 218.875px;">
-            <div class="portfolio-wrap">
-              <!-- <img src="assets/img/certification/pm.png" class="img-fluid" alt=""> -->
-              <img src="assets/img/certification/pm.png" class="img-fluid" alt="" style="
-            width: 450px;
-            height: 150px;">
-              <div class="portfolio-info">
-                <h4>Postman Student Expert </h4>
-                <div class="portfolio-links">
-                  <a href="https://api.badgr.io/public/assertions/e84mLRdaR7utEI_zOFcNsQ?identity__email=shreyashmohadikar%40gmail.com"
-                    target="_blank" title="Certificate"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
-    </div>
 
-  </section>
-  <!-- End Education Section -->
+      <div class="portfolio">
+        <div class="container">
+          <div class="section-title">
+            <h2>Online Certification</h2>
+          </div>
 
+          <div
+            class="row portfolio-container"
+            style="position: relative; height: 437.75px">
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 0px; top: 0px">
+              <div class="portfolio-wrap">
+                <img
+                  src="assets/img/certification/dai.png"
+                  class="img-fluid"
+                  alt=""
+                  style="width: 360px; height: 220px" />
+                <div class="portfolio-info">
+                  <h4>Deep Learning Specialization</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.coursera.org/account/accomplishments/specialization/certificate/7S2V85RJD9QZ"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  <!-- Start Experience Section -->
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 370px; top: 0px">
+              <div class="portfolio-wrap">
+                <!-- <img src="assets/img/certification/aws.png" class="img-fluid" alt=""> -->
+                <img
+                  src="assets/img/certification/aws.png"
+                  class="img-fluid"
+                  alt=""
+                  style="width: 360px; height: 220px" />
+                <div class="portfolio-info">
+                  <h4>AWS Cloud Practioner</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.credly.com/badges/d2ad3d34-d343-4673-bcb6-82e8548500e9?source=linked_in_profile"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-  <section id="experience" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Experience</h2>
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-app"
+              style="position: absolute; left: 740px; top: 0px">
+              <div class="portfolio-wrap">
+                <!-- <img src="assets/img/certification/jhu.png" class="img-fluid" alt=""> -->
+                <img
+                  src="assets/img/certification/jhu.png"
+                  class="img-fluid"
+                  alt=""
+                  style="width: 360px; height: 220px" />
+                <div class="portfolio-info">
+                  <h4>HTML, CSS, and JavaScript for Web Developers</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.coursera.org/account/accomplishments/certificate/LGNGHPX9K3DE"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-project"
+              style="position: absolute; left: 0px; top: 218.875px">
+              <div class="portfolio-wrap">
+                <!-- <img src="assets/img/certification/pel.png" class="img-fluid" alt=""> -->
+                <img
+                  src="assets/img/certification/pel.png"
+                  class="img-fluid"
+                  alt=""
+                  style="width: 450px; height: 150px" />
+                <div class="portfolio-info">
+                  <h4>Machine Learning in Python</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://perfectplanb.net/certificate/914aa27312"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6 portfolio-item filter-project"
+              style="position: absolute; left: 370px; top: 218.875px">
+              <div class="portfolio-wrap">
+                <!-- <img src="assets/img/certification/pm.png" class="img-fluid" alt=""> -->
+                <img
+                  src="assets/img/certification/pm.png"
+                  class="img-fluid"
+                  alt=""
+                  style="width: 450px; height: 150px" />
+                <div class="portfolio-info">
+                  <h4>Postman Student Expert</h4>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://api.badgr.io/public/assertions/e84mLRdaR7utEI_zOFcNsQ?identity__email=shreyashmohadikar%40gmail.com"
+                      target="_blank"
+                      title="Certificate"
+                      ><i class="bx bx-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a href="" style="color:#12d640">Foundit (Formerly Monster India)</a><br></h4>
-            <h5 style="text-align:left;">January 2023 - June 2023</h5>
-            <h6>
-              <p style="text-align:left;color:#fff"><em>Data Science Intern </em></p>
-            </h6>
-            <ul style="text-align:left;">
-              <li> Contributed to ML model implementation for text summarization, Named Entity Recognition (NER), and
-                text extraction, achieving an overall efficiency improvement of 25%. </li>
-              <li>Applied advanced algorithms for accurate information extraction, enhancing productivity and minimizing
-                manual effort. Performed data analysis to extract valuable insights and support decision-making
-                processes.</li>
+    </section>
+    <!-- End Education Section -->
+
+    <!-- Start Experience Section -->
+
+    <section id="experience" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Experience</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100">
+              <h4 style="text-align: left">
+                <a href="" style="color: #12d640"
+                  >Foundit (Formerly Monster India)</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">January 2023 - June 2023</h5>
+              <h6>
+                <p style="text-align: left; color: #fff">
+                  <em>Data Science Intern </em>
+                </p>
+              </h6>
+              <ul style="text-align: left">
+                <li>
+                  Contributed to ML model implementation for text summarization,
+                  Named Entity Recognition (NER), and text extraction, achieving
+                  an overall efficiency improvement of 25%.
+                </li>
+                <li>
+                  Applied advanced algorithms for accurate information
+                  extraction, enhancing productivity and minimizing manual
+                  effort. Performed data analysis to extract valuable insights
+                  and support decision-making processes.
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100">
+              <h4 style="text-align: left">
+                <a href="" style="color: #12d640">State Bank of India</a><br />
+              </h4>
+              <h5 style="text-align: left">November 2022 - January 2023</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Machine Learning Intern</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Recalibrated a ML model for leads generation and identifying
+                  potential clients for demat accounts.
+                </li>
+                <li>
+                  Implemented a classification model and was able to improve the
+                  accuracy from 69% to 76% compared to the previous model
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100">
+              <h4 style="text-align: left">
+                <a href="" style="color: #12d640">Sify Technologies Limited</a
+                ><br />
+              </h4>
+              <h5 style="text-align: left">October 2022 - November 2022</h5>
+              <p style="text-align: left; color: #fff">
+                <em>Robotic Process Automation Intern</em>
+              </p>
+              <ul style="text-align: left">
+                <li>
+                  Orchestrated a project to automate device access and
+                  streamline data retrieval in a large-scale format.
+                </li>
+                <li>
+                  Optimized the data retrieval process using advanced RPA tools
+                  and techniques, resulting in a remarkable increase in
+                  efficiency and cost savings of up to 70% for the organization.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Experience Section -->
+
+    <!-- Start Project Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Web-App</li>
+              <li data-filter=".filter-project">Project</li>
             </ul>
           </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a href="" style="color:#12d640">State Bank of India</a><br> </h4>
-            <h5 style="text-align:left;">November 2022 - January 2023</h5>
-            <p style="text-align:left;color:#fff"><em>Machine Learning Intern</em></p>
-            <ul style="text-align:left;">
-              <li> Recalibrated a ML model for leads generation and identifying potential clients for demat accounts.
-              </li>
-              <li> Implemented a classification model and was able to improve the accuracy from 69% to 76% compared to
-                the previous model</li>
-            </ul>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <h4 style="text-align:left;"><a href="" style="color:#12d640">Sify Technologies Limited</a><br> </h4>
-            <h5 style="text-align:left;">October 2022 - November 2022</h5>
-            <p style="text-align:left;color:#fff"><em>Robotic Process Automation Intern</em></p>
-            <ul style="text-align:left;">
-              <li> Orchestrated a project to automate device access and streamline data retrieval in a large-scale
-                format.</li>
-              <li> Optimized the data retrieval process using advanced RPA tools and techniques, resulting in a
-                remarkable
-                increase in efficiency and cost savings of up to 70% for the organization.</li>
-            </ul>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- End Experience Section -->
-
-
-
-  <!-- Start Project Section -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Projects</h2>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Web-App</li>
-            <li data-filter=".filter-project">Project</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Mood Melody</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/musicplayer.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/MoodMelody.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Mood Melody</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/musicplayer.jpg"
+                class="img-fluid"
+                alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/MoodMelody.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Auto Percept</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/AutoPercept.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Auto Percept</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/AutoPercept.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Posture Perfect</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/PosturePerfect.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Posture Perfect</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/recommender.jpg"
+                class="img-fluid"
+                alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/PosturePerfect.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center>
-            <h4>Image Steganography Using Deep Learning</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/iras.jpeg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/ImageSteg.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center>
+              <h4>Image Steganography Using Deep Learning</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/iras.jpeg"
+                class="img-fluid"
+                alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/ImageSteg.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <center>
-            <h4>Biblio Hub</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/recommender.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/biblio.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <center>
+              <h4>Biblio Hub</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/recommender.jpg"
+                class="img-fluid"
+                alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/biblio.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center>
-            <h4>Fake News Detection</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/twitteranalysis.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <div class="portfolio-links">
-                <a href="projects/news.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
-                  title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center>
+              <h4>Fake News Detection</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/twitteranalysis.jpg"
+                class="img-fluid"
+                alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/news.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-project">
-          <center>
-            <h4>Text Summariser using BART</h4>
-          </center>
-          <div class="portfolio-wrap">
-            <img src="assets/img/project/textsumm.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-
-              <div class="portfolio-links">
-                <a href="projects/Text Summarizer.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe"
-                  class="venobox" title="Project Details"><i class="bx bx-info-circle"></i></a>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+            <center>
+              <h4>Text Summariser using BART</h4>
+            </center>
+            <div class="portfolio-wrap">
+              <img
+                src="assets/img/project/textsumm.jpg"
+                class="img-fluid"
+                alt="" />
+              <div class="portfolio-info">
+                <div class="portfolio-links">
+                  <a
+                    href="projects/Text Summarizer.html"
+                    data-gall="portfolioDetailsGallery"
+                    data-vbtype="iframe"
+                    class="venobox"
+                    title="Project Details"
+                    ><i class="bx bx-info-circle"></i
+                  ></a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <center><h4>To-Do App</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/todo.jpg" class="img-fluid" alt="">
@@ -529,9 +738,9 @@
           </div>
         </div> -->
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project"> -->
-        <!-- <br> -->
-        <!-- <center><h4>Resume Section Classifier</h4></center>
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project"> -->
+          <!-- <br> -->
+          <!-- <center><h4>Resume Section Classifier</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/resume.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -543,7 +752,7 @@
           </div>
         </div> -->
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <br>
           <center><h4>Tech Blog</h4></center>
           <div class="portfolio-wrap">
@@ -556,7 +765,7 @@
           </div>
         </div> -->
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project">
           <center><h4>Video Description Generator</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/vdg.jpg" class="img-fluid" alt="">
@@ -568,7 +777,7 @@
           </div>
         </div> -->
 
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <center><h4>ML-DL Web-App</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/ml.jpg" class="img-fluid" alt="">
@@ -580,11 +789,9 @@
           </div>
         </div> -->
 
-
-
-        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project"> -->
-        <!-- <br> -->
-        <!-- <center><h4>Image Generator</h4></center>
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-project"> -->
+          <!-- <br> -->
+          <!-- <center><h4>Image Generator</h4></center>
           <div class="portfolio-wrap">
             <img src="assets/img/project/gan.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -594,162 +801,227 @@
             </div>
           </div>
         </div> -->
-
-      </div>
-    </div>
-  </section>
-
-  <!-- End Project Section -->
-
-
-  <!-- Start Skills Section -->
-
-  <section id="skills" class="services">
-    <div class="container">
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-12" data-aos="fade-up">
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Languages and Databases</h4>
-            <p style="text-align:left;">
-              <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="vectorlogo.zone" height="60" width="100"> -->
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
-                alt="vectorlogo.zone" height="60" width="100">
-              <img src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg" alt="vectorlogo.zone"
-                height="50" width="150">
-              <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="vectorlogo.zone" height="50"
-                width="150">
-              <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="vectorlogo.zone">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                alt="upload.wikimedia.org" height="60" width="90">
-              <img src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" alt="vectorlogo.zone" height="70"
-                width="130">
-
-            </p>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100"
-            style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Frameworks</h4>
-            <p style="text-align:left;">
-              <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" alt="vectorlogo.zone">
-              <!-- <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="vectorlogo.zone"> -->
-              <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="vectorlogo.zone">
-              <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg" alt="vectorlogo.zone">
-              <img src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg" alt="vectorlogo.zone">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
-                alt="upload.wikimedia.org" width="90" height="70">
-            </p>
-          </div>
-          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="lefade-up" data-aos-delay="100"
-            style="background:#fff">
-            <h4 style="text-align:left;color:#09203a">Tools</h4>
-            <p style="text-align:left;">
-              <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="vectorlogo.zone">
-              <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg" alt="vectorlogo.zone">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZgAAAB7CAMAAAB+Qmb/AAAAk1BMVEX/////bDf/ajT/Zi3/ZSr/aDD/aC7/8ez/eUr/7+v/6uP/cz7/y7v/Xxz/lG//qY3/+ff/5d3/u6f/dEL/YiP/w7D/iWH/i2n/1cr/sJv/9fL/4tn/YSD/lXf/0cP/gFP/3NH/nH3/hVn/o4b/e03/rZP/vKn/yLj/tZ7/h13/gFX/pYf/oID/WgX/mXr/2cz/VgDsTOidAAAQzUlEQVR4nO1diZaiOBSFkKCCIAouBYq4lVaVbc3/f93wwiJLogHS7alu7pkz3a0ISW5e3pqgKI1hBKv3L3vvqimG+9vkfRWMmt+phyw4o/lhMVQ9TAhScyCiY6wel4fxwHl1C/9FOKvJ3sN6kZIiENE87+MUvrqZ/xj876uqaxxO7iCabu4i/9Wt/WcwuOyx/pSVVHJ0/ePSU/MnEFwxJmKspHKD8XX66lb/9YiWqtaElQSaagevbvlfDeOKedr+MWJT7TB4dev/WgwmVgtpyaVmfep1zW/B+Ijb0wLAn731LB+D67rVIlYEsQ690EhGqOldaQFow15opOIk6rc8A8KzV/flL8Loo6N2KcKz++VMEr6PHYyxOvRt725KwTdp5Og/BxlGr+7T34CZJUm93IF+rV7dq5+Pd8nikjCj9sZZR8yt38ALhGh6memEi0RzrMyM18tMB4TPk2GtmVGjV/fu5yLqHoW5E1G9FdKNV/fvpyIYyuIFYXU4VCv5NfLRJwLaYSslPAb65DgPDCMY216JGrx7dQ9/JnaSFL9+/M5uObJLMohPr+zfT8VcEi/aolD8dy5bEzh6Wfd+LAxVjoIhnwVNsvp1mGilL/uAZlN8SPL4caEK42xNFKVkUfRqpinmnhxeiH2/Z+gBDefSEql/c5vQgwHDlWQp43voJfxvAn8MtsVbk8++wLkJbFmW8jH3Is8YeFn5yq10b3x5YTd/HCJJC5lKFpl2X/26xv+f6hflVEq7IbcPAAjDWciK9ZNFulKd/0t8ls9FNTCq3V7Y0x+GUFpMGe0TY3mVml+D4VU5VBLVXi8yopAmMPFCleT3DXdL17Txr5ViV+6uTV7a2R+EsSTND8Dz5J6DLTUDRt/KtOa5or44QwySBIZgXdPRML3pQP1MQjOn2jqJe5ERwlRGNhlp+m4+Pl8Jfk9vOzq6wMy0XgqFzD7+L4Kqcm4DYh4SlX42c99+dPycKsaRIY7a/HW9/TkYdU+PIZzW9A1uquflFTED9/i9Z+kv8vG67v4cdI+SETWVgKnrnkfB9b9rGsiMkMdWX1av/p+js+rXj+kwj8w91fc3T11OZrOLPeT9hGsxO6MCBk9zBI4f43nwzfEH9HasK0tPLDy7duGAc4zBkwbEDXz4df1JTvLRqGseZr1Jn2wMUzss1BDRMH6wS5B8sFvr3KwCyHE3f9Tp77fl0DTN/fX8sO/GxT7q8e3Q0X6r11BdLSZwVQ3OkbpgRcZnQ/PjwbEgF9d0H+Rtp59r/VDu48jG6kHpnLhEerbNYmpu0ydEz/0iEjHbaZT1HSIYXXjUnIdAfQw4mWPCjSZEm3yGxLfD6rkyMiZ79iCzfN3AJIio9Va/rRHy+CM/teIGemPu92McK2i79NFsHTc0/nPXybtEmXqJff19NnFmz808TozZqBkiCLPno7Hx0tFO7jc8s66K26In/cuqqZBXFgVevoMMy/cZAIFkW719AM9/EMqgTpx24H5PfXurJIkz+Em8eHBmjBiImuUrp26eNV7VSsrqQLUuJsMExGjZcrLGcCONlY72h9B8gi3i6muoK0AWk5nTGh6me5bqIotKjlbJob7lqxc8jGT/0Cu3o8SotXLSJShoPjFJdBgh7oJMiSF28fuUmGDdgRdtkVlXhpprjbluC/wUM9sKxGgnJ8X0QjfqVIcSsIMv8HI+ii8LvkwCksM4WSCCOULca+jH143OOxMj771yTfY0JR76eIjyf5aREIMqk+SbiiOfmCAR6DU3bZtEw3CR75SYWQcVg/O6i+I69uv0LWDnYWaRORCD3+7/Ht3oUlBTIAaY+Fq+tEfgxbLSCVcN1p+7bT69oB139lJieF8mxKiVhZAKzANi0tHlX5AQU/LrUmI27Y1lnI9EoO6z7u5+jSuZMc6PmUqmSkzS9fq1EKzQroVhg87oNcPTjz9GQ9H4jwgxaFgUmdB6Mu5pVh3teWZjGj/WCiKTEOPsWxODrxkZhprlLX07dvsHIvUDOjNdVicmgOFaVGZ5snQX5Qh6o9W0zLfXJJUtQoyqFVbCLL/IJcaAiQF5Qo4RmhNDlvePEmKmrYswvLw1UzebEKM9FC8JbeVAW9YkqhMD2RxkVq6FVpNN9ZPKD5XEFVgLH2rznBj4j9wnSVb/wyUmviAW2Phn3BLULOOyvq/sCTFRW4G5j0Kgf6RtDTzIX47EuEasFYZBDLTTqlwbqDVJiCevflUqgDXVEs6XPiUGHUsdV4Ao8xExG13VN8qXpiKXcwUlBpU87oSYcctA2X0KTM1lOmwh2sDfrmLBauZMZhATenViVviekUsR6yKyrOp1IMaLOGNSw1NiyDXWyOiYmTlnWCjfMZ8Y+E3czBAUIic4CMS44CPgfB1OiLm0CvkjPeclUDN5ebeoWbsSzO54LL+DQcwKiKn4mPAZg5iqKqJL2QPvroKnxGinwLrPyUHcVrL3LT4xMKfWg6RTVSM9RUwMGs41kJrso4SYa5ulDN3V7BRn0/TNomuLcRRUWkylTPtQHvEVS2IEiQEnDamitZ/PiZnQ+oV0AxaoUm+sPCDmlrbppjOkOQEQ4xqwyOQTNSFm0UL3ozv9UzOzx3ZWMlC2qF9U1wgKk5hxB2IUl/qXgupfhJhvlPlPYHtCiIZPjB/PUTr9QHDrtjxFQgz4oSRbeRJiti2I0fMhCXDqGQ0+1MSsqCf4eShbVSkYxICe0CtWmTAxNEKLsNjBaSLEgD5PRGYCox0+ImYVX4pgUvhUGTGvocRMlS8wH9MOJcQ0p0XFeaw0QOkxMdO9mSi3sXgcgSwY7awT43zEI76vjLgwMcqC6lA8PAXPszZCxEz1JEY00FHiffCJmcTWGA2FOtA49p1TYuBu6JgMZlticF6vF2R+5ZQcE0GNGkREmenlOjFgttQ6Lk7M6JNOFYS95eyZ2AgRA0EHCMvB0kANPj4x8XWp5XEBf4ZptqfE0Nul51S1IwaR+S2ttgjWqbt6tm7JiIwEwsoNiTFoQLiqvsWJiWcrThoFZ9tGzAHMIEaMEXdSt0ErJFqSSwy14JInRqi40BSREQPOH0J06rQiBulnxdmbsHAGarqOvXupGh80Cu+gLWMYq8SEQ7CC9tXLGhCjOHM3TcmoGpo8khoxYpLAKITw1lQGuMS8gZikdr6L2MZOTkxBZNoQg6jed5ZeoESZjjj9l6Yw/X0jnyhbUksAYshXmGA8+4BkGKnH85sQA73feOnOdrx9EAcQJIZGNki+OY5HDCiWnIwvsIeZTcuI8YegZUAjtCAG6UkQ1Nm4c23jJH/NRNRZNEuFciUGDjun0Oho6mZUu6whMZD2/9AoNcTkMyNITBoLzLaT8IgJUME3gVCFx/KncmIUCCFQ37o5MSizk4MLWicOk79MuVKca8PEDlfHlB5JvAUjmNGYGHhnxJLmojW7fT4mJcCnYayszpdHDI3xZYsC1O4xr7oTo8TNQ6rTSmJCxQ/Gp6211nSTCsrUzHYhxctbM14eEBOr6RRr88Z021sQEyOEBaia6ipAlBha04DM9GE8Yj5J0SO46uykTIEYiFVDuKcxMWQ5s7cmhgQ73g2WsRkQkGXKi39rnAjl+jHxcy4J5hEnx9WOGGX6CSnoI+9rYWLApdey4iAOMQYqOZXg6WJGBKJAjB97bEg1Wnj+BKqF4C8YloONd8qLCJxb8yA1M1PGCGKy0JIYxYACBz3ifCtMjDKzsJpNfw4xZ7CE7k/yC9HPIgrEKPM1XSDbx8rIQfGn4QFnfkys91sUDuisqO9vJoYG03mB3gbEKPNJrvk4xNikvCYsCFNWi8TAUQvINN5bR5fJbnNUteHXIrWX/FaH0PCjy7+RmIAG7zlfNiCmADYxfry2IPe2yXCjQff6WlYihiZuTvOW+Rjird3NexgrF8emZTn+slWhjWg+hoXWxPifPE9PkUsMTUBmdn8MWgvKkNUSMWAwqPoJ3A6ay2kEbbm611zZKFRGLQ/TYhb8ixIjmMGs4Y8Rs2OtRMWSixRlYla5mIiUGZd5KR0G59h4vGi57QmxKl8FiaE5/9LR9BCE5o74HUAMN6UpkZjBJ5j9ehHAFK5ZmWViaFIhIabhUSW4ulrc1i2rOao1jQkEiYHLylYd1IbXf+iHlYeAjuG+bEAiMbA/H5fLaWd1KVdqxOS7LulMa8CLXaE8Ek0k10CYxzAJEkMLulAxuALpNK0av/WX3qIcgaGXccrPZRIDsTFUnhRQPKrXkoMVYvKt90rloJcnvFRn+VhtXy7InLeCxND0YbGkmZbM1rK3Z0/VSqFSg12wmUIiMZBFq8TEQQTqSZkqMZGaEdNgewyuhJmcSYdDZzEz1iJKDCUC77IhDiFBV69dfvcganmXoxWs2zp37OURE60ZoZ83jRZvlFElJtup3KTaX1uWp9qordpPiOFW+4sQoxxosfnnaeU7o/EGAhLIrHkJAa2eRMvZ1HEcP7zRSko14t1THjGQilGrVieYkrVZUSPG0FNiHFHtjz/KQzk2u+x4qgp61ixRYnyaMkaaZ1kW3YCLLEaGcJ7secFrz3QtjxY9Wjy/XyIx/oJpu8P0WVc+qxGjJEdVKsK7/PGmpF/8a7dXMj3YUSZEjDLYFU91RvjIPKE+dNPepUlvoj4oMVdlETPNUitlwJlw1Z0yY61KjE8HNvlKANqixMvqs+N5TShidt8YYt0SfHfW+JjtwdQw4e3BnNr3PbpIx8dHr37YYt3jE+NyWraOP6+QYOgaserhl9DStapbPfY0XMndnTxN0+I/fZFdy2W971/bei8ZuNGT6HCdCZ/NGL3ZR9N0Pw7nBz8xZrZqeTEsc8ffpEqvfNu98fcfTw875ioYnOpbq6e7BUMynctuUjN55tdrVdbD3ZXOn+qpVSxeSutYuO18vJms8xeF9vk7g9EqDFfGnzxZWMbBn+OndllJ748kvB+zPxlDBDSu85CX250X/4JlHAnEyl72qGLyeKi1wusSx3Lew9ifviQE4+GOloLeD+yuSj9BbeteDzYeqX+8ywbR2CBJRzT2L8UQxIqvZPJ9Sf7JlPbW0v5MTFFwT8bK9L7xhrG0t2T1p8gKg3fucuoHOhd50qJmxdg9RMA+HwMPdeorT3/JfNcffp4B7pEhYImMd1G+6P4zWe/8oci3JvQQwa2+VlHb6Qui6b68k8x5qcseHNSPs1gnNu0EdiM/cUGboH9/TENUI2Z5mHHizZvseX0GbuVwDw7KXmahNu3kjQ1Zr5fp31HWHEZ5xzFB7ta2T6f3c7jXZL0n637KQA9xVFOZCBGiadjTVHlGGWuLSI9n+Ppdr4y/89K/n6wVmOfwy+RF+CCkHiUw31whD2TRR/tbIupWk/SEF+aZfj2EEDY5dKQZkOjpVD1Y6HIM82NevEclXT2eYi7jvVgMXkjPS0e8818u0oEXlVnB2qMJZhLqxiogVi8vEvBNJFvN+SuZenTD91FmJlnVPvpcsiSM5NT1UaD1rQ9cysNJlqtJUF91KRWhLiVwho/Rq3vyt2Gw6W6dkfWpX8bkYzzsZgMgzHw/YY/OGE1+dVjPMOa+KbFHVxg33M6nQZrgue09WiJaouYLWvyTXR9L/t2IrutmBeUEk1PvUv4JDC7bB+9NrgqLvnzvdcufwmB1U3XtKTcE6+5E4L0TPSTCDydbD+s8yUFE87zFW/TqZv6TcEbzw2KoepgU6YG3g3vqcTkZc1543+OPYBSEsy9772a8DPe3yXwV9IUWUvE/aPIY+0GB/v4AAAAASUVORK5CYII="
-                alt="vectorlogo.zone" height="50" width="150">
-              <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" alt="vectorlogo.zone">
-            </p>
-          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- End Skills Section -->
+    <!-- End Project Section -->
 
+    <!-- Start Skills Section -->
 
-  <!-- Start Contact Section -->
-
-  <section id="contacts" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>NRI Complex</p>
-            <p>Seawoods</p>
-            <p>Navi Mumbai, 400706</p>
-          </div>
+    <section id="skills" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Skills</h2>
         </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/shreyashmohadikar/" target="_blank" class="linkedin"><i
-                  class="bx bxl-linkedin"></i></a>
-              <a href="https://github.com/Shreyashmohadikar" target="_blank" class="github"><i
-                  class="bx bxl-github"></i></a>
-              <a href="mailto:shreyashmohadikar@gmail.com" target="_blank" class="google"><i
-                  class="bx bxl-google"></i></a>
-              <a href="https://linktr.ee/shreyashmohadikar" target="_blank" class="google"><i class="bx">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill="currentColor"
-                      d="m13.736 5.853l4.005-4.117l2.325 2.38l-4.2 4.005h5.908v3.305h-5.937l4.229 4.108l-2.325 2.334l-5.74-5.769l-5.741 5.769l-2.325-2.325l4.229-4.108H2.226V8.121h5.909l-4.2-4.004l2.324-2.381l4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z" />
-                  </svg>
-                </i></a>
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              style="background: #fff">
+              <h4 style="text-align: left; color: #09203a">
+                Languages and Databases
+              </h4>
+              <p style="text-align: left">
+                <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="vectorlogo.zone" height="60" width="100"> -->
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                  alt="vectorlogo.zone"
+                  height="60"
+                  width="100" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/python/python-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="50"
+                  width="150" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="50"
+                  width="150" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                  alt="upload.wikimedia.org"
+                  height="60"
+                  width="90" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg"
+                  alt="vectorlogo.zone"
+                  height="70"
+                  width="130" />
+              </p>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="lefade-up"
+              data-aos-delay="100"
+              style="background: #fff">
+              <h4 style="text-align: left; color: #09203a">Frameworks</h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <!-- <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="vectorlogo.zone"> -->
+                <img
+                  src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/opencv/opencv-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                  alt="upload.wikimedia.org"
+                  width="90"
+                  height="70" />
+              </p>
+            </div>
+            <div
+              class="col-md-12 mt-4 mt-md-0 icon-box"
+              data-aos="lefade-up"
+              data-aos-delay="100"
+              style="background: #fff">
+              <h4 style="text-align: left; color: #09203a">Tools</h4>
+              <p style="text-align: left">
+                <img
+                  src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+                  alt="vectorlogo.zone" />
+                <img
+                  src="data:image/png;base64,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"
+                  alt="vectorlogo.zone"
+                  height="50"
+                  width="150" />
+                <img
+                  src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg"
+                  alt="vectorlogo.zone" />
+              </p>
             </div>
           </div>
         </div>
-
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email</h3>
-            <p>shreyashmohadikar@gmail.com</p>
-            <p>shreyash.mohadikar2020@vitbhopal.ac.in</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Contact</h3>
-            <p>+918435695555</p>
-          </div>
-        </div>
       </div>
-      <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
-    </div>
-  </section>
+    </section>
 
-  <!-- End Contact Section -->
+    <!-- End Skills Section -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing', {
-      strings: ["ML Engineer", "Data Scientist", "Deep Learning Enthusiast", "Web Developer"],
-      loop: true,
-      typeSpeed: 65,
-      backSpeed: 65
-    });
-  </script>
+    <!-- Start Contact Section -->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <section id="contacts" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
 
-</body>
+        <div class="row mt-2">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>My Address</h3>
+              <p>NRI Complex</p>
+              <p>Seawoods</p>
+              <p>Navi Mumbai, 400706</p>
+            </div>
+          </div>
 
+          <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-share-alt"></i>
+              <h3>Social Profiles</h3>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/shreyashmohadikar/"
+                  target="_blank"
+                  class="linkedin"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+                <a
+                  href="https://github.com/Shreyashmohadikar"
+                  target="_blank"
+                  class="github"
+                  ><i class="bx bxl-github"></i
+                ></a>
+                <a
+                  href="mailto:shreyashmohadikar@gmail.com"
+                  target="_blank"
+                  class="google"
+                  ><i class="bx bxl-google"></i
+                ></a>
+                <a
+                  href="https://linktr.ee/shreyashmohadikar"
+                  target="_blank"
+                  class="google"
+                  ><i class="bx">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24">
+                      <path
+                        fill="currentColor"
+                        d="m13.736 5.853l4.005-4.117l2.325 2.38l-4.2 4.005h5.908v3.305h-5.937l4.229 4.108l-2.325 2.334l-5.74-5.769l-5.741 5.769l-2.325-2.325l4.229-4.108H2.226V8.121h5.909l-4.2-4.004l2.324-2.381l4.005 4.117V0h3.472zm-3.472 10.306h3.472V24h-3.472z" />
+                    </svg> </i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p>shreyashmohadikar@gmail.com</p>
+              <p>shreyash.mohadikar2020@vitbhopal.ac.in</p>
+            </div>
+          </div>
+          <div class="col-md-6 mt-4 d-flex align-items-stretch">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Contact</h3>
+              <p>+918435695555</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div id="sfczmlqxr5caww28rswrt8849ghbekgnh3j" ></div><script type="text/javascript" src="https://counter1.stat.ovh/private/counter.js?c=zmlqxr5caww28rswrt8849ghbekgnh3j&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img src="https://counter1.stat.ovh/private/freecounterstat.php?c=zmlqxr5caww28rswrt8849ghbekgnh3j" border="0" title="free web counter" alt="free web counter" style="visibility: none;"></a></noscript> -->
+      </div>
+    </section>
+
+    <!-- End Contact Section -->
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+      var typed = new Typed(".typing", {
+        strings: [
+          "ML Engineer",
+          "Data Scientist",
+          "Deep Learning Enthusiast",
+          "Web Developer",
+        ],
+        loop: true,
+        typeSpeed: 65,
+        backSpeed: 65,
+      });
+    </script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
